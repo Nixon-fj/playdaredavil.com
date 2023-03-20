@@ -1,12 +1,12 @@
 .accordion .a-container-horse{
-    background-color: $light-gray;
+    background-color: $mid-yellow;
 }
 
 .accordion .a-container-horse.active .a-btn {
-	background-color: $white;
+	background-color: $mid-yellow;
 }
 .accordion .a-container-horse.active .a-panel{
-    background-color: $white;
+    background-color: $mid-yellow;
 }
 .accordion .a-container-horse .a-btn span::after {
 	top: 15px;

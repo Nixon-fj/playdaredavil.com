@@ -1,12 +1,10 @@
 footer{
     margin-top: 10px;
-    position: relative;
-    z-index: 2;
-    background-color: $light-blue;
+    background-color: $deep-blue;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    padding: 2rem;
+    padding-bottom: 5rem;
     @media screen and (min-width:992px) {
         margin-bottom: 0px;
     }
@@ -86,7 +84,7 @@ footer{
                     display: block;
                     text-align: left;
                     text-decoration: none;
-                    color: $white;
+                    color: $light-yellow;
 
                     &:hover{
                         color: $mid-yellow;
@@ -124,8 +122,8 @@ footer{
                     a{
                         display: flex;
                         flex-direction: column;
-                        color: $deep-blue;
                         font-size: 10px;
+                        font-weight: bold;
                         justify-content: space-between;
                         .icon-container{
                             width: 100%;
@@ -137,7 +135,7 @@ footer{
                         }
                         .horse{
                             img{
-                                max-width: 19px;
+                                max-width: 25px;
                             }
                         }
                     

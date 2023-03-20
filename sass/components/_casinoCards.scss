@@ -2,15 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: $deep-blue;
+    color: $white;
     h2{
         text-align: center;
     }
     p{
         margin: 10px;
-        background-color: white;
         padding: 15px;
-        border: 1px solid white;
         border-radius: 10px;
         text-align: center;
     }
@@ -18,9 +16,9 @@
 
 .casino-games {
     padding: 3rem 0;
-    background-color: $light-gray;
+    background-color: $light-blue;
     &__h2 {
-        color: $deep-blue
+        color: $deep-blue;
     }
 
     max-width: 1280px;
@@ -33,10 +31,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        
-        /* @include from(l){
-            flex-direction: row; 
-        } */
+
         &--grid{
             display: flex;
             flex-wrap: wrap;
@@ -45,9 +40,6 @@
 
     &__layout--col1 {
         width: 100%;
-        /* @include from(l) {
-            width: 70%;
-        } */
     }
 
 	&__layout--card-img {
@@ -60,22 +52,15 @@
         width: 100%;
 		padding: 0rem 0 2rem 0;
         background-color: #05380f;
-        /* @include from(l) {
-            width: 25%;
-        } */
     }
 
     &__layout--h3 {
-        // background-color: #4ab75c;
         font-size: var(--small-font-size);
 		align-items: center;
 		text-align: center;
 		max-height: 100px;
 		height: 100%;
-
-        /* @include from(l) {
-            font-size: var(--normal-font-size );
-        } */
+        color: $white;
     
     }
 

@@ -11,7 +11,7 @@
 	align-items: center;
 
 	&__h1 {
-		color: $deep-blue;
+		color: $white;
 		text-transform: uppercase;
 	}
 
@@ -24,16 +24,15 @@
 
 	&__container {
 		padding: 20px;
-		background-color: $light-gray;
-		margin-bottom: 40px;
-		color: $deep-blue;
+		background-color: $light-blue;
+		color: $white;
 		text-align: left;
 		margin: 0;
 		width: 100%;
 	}
 	
 	&__list {
-		color: $deep-blue;
+		color: $white;
 		margin: 2rem 0;
 	}
 	&__list--ul {
@@ -50,6 +49,7 @@
 	&__list--a {
 		text-decoration: underline;
 		text-transform: uppercase;
+		color: $light-yellow;
 	}
 
 	&__container--slider {
@@ -66,7 +66,7 @@
 
 	&__container--slider-li1 {
 		background-color: $deep-blue;
-		color: $light-yellow;
+		color: $white;
 		padding: 0.5rem 1rem;
 		border: 0.96px solid $deep-blue;
 		width: 100%;
@@ -81,7 +81,7 @@
 	&__container--slider-li2 {
 		padding: 1rem 1rem;
 		border: 0.96px solid $deep-blue;
-		color: $deep-blue;
+		color: $white;
 		font-weight: 300;
 		width: 100%;
 		text-align: center;
@@ -109,11 +109,8 @@
 }
 
 .sport-rules {
-	&__table {
-		color: $deep-blue;
-	}
-	
 	&__table{
+		color: $deep-blue;
 		border-collapse: separate;
 		border-spacing: 0 5px;
 		width: 970px;
@@ -210,7 +207,7 @@
 	flex-direction: column;
 	width: 100%;
 	padding-bottom: 5px;
-    background-color: $light-yellow;
+    background-color: $mid-yellow;
 	border: 1px solid $deep-blue;
 	margin-bottom: 7px;
 }
@@ -219,10 +216,8 @@
 	margin: 0;
 	position: relative;
 	padding: 8px 26px;
-	// width: 100%;
-	color: $deep-blue;
+	color: $white;
 	text-transform: uppercase;
-	font-weight: 400;
 	display: block;
 	font-weight: 500;
 	background-color: transparent;
@@ -231,10 +226,6 @@
 	word-break: break-word;
 	
 }
-
-// .accordion .a-container .a-btn p {
-// 	width: 200px;
-// }
 
 .accordion .a-container .a-btn span {
 	display: block;
@@ -279,8 +270,7 @@
 }
 
 .accordion .a-container.active .a-btn {
-	color: $deep-blue;
-	background-color: $light-yellow;
+	background-color: $deep-yellow;
 }
 
 .accordion .a-container.active .a-btn span::before {

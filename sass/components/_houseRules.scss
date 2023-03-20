@@ -1,7 +1,6 @@
 .house-rules{
     padding: 3rem 0;
-    background-color: $light-gray;
-
+    background-color: $light-blue;
     max-width: 1280px;
     width: 90%;
     margin-right: auto;
@@ -11,16 +10,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: $deep-blue;
+    color: $white;
     h2{
         text-align: center;
         font-weight: bold;
     }
     p{
         margin: 10px;
-        background-color: white;
         padding: 15px;
-        border: 1px solid white;
         border-radius: 10px;
         text-align: center;
     }

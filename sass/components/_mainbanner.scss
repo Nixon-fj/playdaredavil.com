@@ -11,7 +11,7 @@
         
     }
     &-horse{
-        background-image: url(../../img/home/slider_horses-imgs.jpg);
+        background-image: url(../../img/slider.jpg);
     }
     &-content{
         display: flex;
@@ -25,13 +25,13 @@
         &-containerInfo{
             margin-top: 50px;
             text-align: center;
-            color: $deep-yellow;
+            color: $white;
             h2{
                 font-size: 55px;
                 font-weight: 900;
             }
             &-horse{
-                color: $deep-blue;
+                color: $white;
             }
             @media screen and (min-width:768px) {
                 margin-top: 0;
