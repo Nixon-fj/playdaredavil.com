@@ -1,0 +1,144 @@
+.cardsContainer{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 34px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    &-item{
+        width: 33%;
+        max-width: 408px;
+        height: 234px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 2px solid #243A7F;
+        border-radius: 10px;
+        text-decoration: none;
+
+        &-info{
+            text-align: center;
+            margin-top: 23px;
+            font-size: 40px;
+            color: $deep-blue;
+            font-weight: 900;
+            height: 40px;
+        }
+
+        &-img{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            & img{
+                width: 100%;
+            }
+        }
+        &:nth-child(1){
+            background-image: url(../../img/home/sports-Bckgr.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            & img{
+                max-width: 194px;
+            }
+
+        }
+        &:nth-child(2){
+            background-image: url(../../img/home/casino-Bckgr.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            & img{
+                max-width: 296px;
+            }
+        }
+        &:nth-child(3){
+            background-image: url(../../img/home/horses-Bckgr.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            & img{
+                max-width: 365px;
+            }
+        
+        }
+    }
+}
+
+.carrousel-mobile{
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+.cards-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cards-wrapper {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+
+    .cardsContainer-item{
+      width: 50%;
+    }
+    .sports{
+      & img{
+        max-width: 194px;
+      }
+    }
+    .race{
+      & img{
+        max-width: 365px;
+      }
+    }
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .carrousel-mobile .carousel-control-prev,
+  .carrousel-mobile .carousel-control-next{
+    bottom: -351px;
+
+  }
+  .carrousel-mobile .carousel-control-prev{
+    left: 35%;
+  }
+  .carrousel-mobile .carousel-control-next{
+    right: 35%;
+  }
+  .carrousel-mobile .carousel-control-next-icon,.carrousel-mobile .carousel-control-prev-icon{
+    filter: hue-rotate(90deg) brightness(0%);
+  }
+
+  .carrousel-cell{
+    margin-top: 40px;
+    margin-bottom: 90px;
+    .cards-wrapper {
+      justify-content: center;
+      .cardsContainer-item{
+        width: 100%;
+      }
+    }
+  }
+  .carrousel-cell .carousel-control-prev,
+  .carrousel-cell .carousel-control-next{
+    bottom: -351px;
+
+  }
+  .carrousel-cell .carousel-control-prev{
+    left: 35%;
+  }
+  .carrousel-cell .carousel-control-next{
+    right: 35%;
+  }
+  .carrousel-cell .carousel-control-next-icon,.carrousel-cell .carousel-control-prev-icon{
+    filter: hue-rotate(90deg) brightness(0%);
+  }
+  .carousel-inner{
+    z-index: 100;
+  }

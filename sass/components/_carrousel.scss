@@ -1,0 +1,129 @@
+.carousel-item{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    &:nth-child(1){
+        & .carrousel-main img{
+            @media screen and (min-width: 900px){
+                width: 100%;
+                max-width: 463px;
+            }
+        }
+    }
+    &:nth-child(2){
+        & .carrousel-main img{
+            @media screen and (min-width: 900px){
+                width: 100%;
+                max-width: 661px;
+            }
+        }
+    }
+    &:nth-child(3){
+        & .carrousel-main img{
+            @media screen and (min-width: 900px){
+                width: 100%;
+                max-width: 610px;
+            }
+        }
+        
+    }
+}
+.carriusel-item-container{
+    &:nth-child(1){
+        background-image: url(../../img/home/slider_sports-imgs.jpg);
+    }
+    &:nth-child(2){
+        background-image: url(../../img/home/slider_horses-imgs.jpg);
+        & h2{
+            font-size: 32px;
+            margin-top: 65px;
+            font-weight: 900;
+            color: $light-blue;
+        }
+        @media screen and (min-width: 900px){
+            & h2{
+                margin-top: 0px;
+                font-size: 75px;
+                text-align: left;
+            }
+        }
+        
+    }
+    &:nth-child(3){
+        background-image: url(../../img/home/slider_casino-imgs.jpg);
+        & h2{
+            font-size: 32px;
+            margin-top: 60px;
+            font-weight: 900;
+        }
+        @media screen and (min-width: 350px){
+            & h2{
+                margin-top: 60px;
+            }
+        }
+        @media screen and (min-width: 900px){
+            & h2{
+                margin-top: 0px;
+                font-size: 75px;
+                text-align: left;
+            }
+        }
+    }
+}
+.carrousel-main{
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (min-width: 900px){
+        max-width: 1400px;
+        height: 440px;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    &-containerInfo{
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 41px;
+        margin-right: 41px;
+        & h2{
+            font-size: 32px;
+            font-weight: 900;
+            color: $light-yellow;
+        }
+        @media screen and (min-width: 900px){
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+            & h2{
+                font-size: 75px;
+                text-align: left;
+            }
+        }
+    }
+    &-containerImg{
+        @media screen and (min-width: 900px){
+            width: 50%;
+            
+        }
+        & img{
+            width: 263px;
+        }
+        
+    }
+}
+
+.carousel-indicators{
+    bottom: -45px;
+    & button{
+        background-color: $deep-blue !important;
+        width: 43px !important;
+        height: 8px !important;
+        border-radius: 11px;
+    }
+}

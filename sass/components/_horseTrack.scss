@@ -1,0 +1,64 @@
+.accordion .a-container-horse{
+    background-color: $light-gray;
+}
+
+.accordion .a-container-horse.active .a-btn {
+	background-color: $white;
+}
+.accordion .a-container-horse.active .a-panel{
+    background-color: $white;
+}
+.accordion .a-container-horse .a-btn span::after {
+	top: 15px;
+}
+.accordion .a-container-horse .a-btn span::before {
+	top: 15px;
+}
+.horse-track-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-img{
+    max-width: 41px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.accordion .a-container .a-btn-horse{
+    display: flex;
+    align-items: center;
+
+}
+
+.tracks-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    &-panels{
+        width: 100%;
+        background-color: $white;
+        border: 1px solid $deep-blue;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        @media screen and (min-width:689px ) {
+            width: 45%;
+        }
+        @media screen and (min-width:1024px ) {
+            width: 32%;
+        }
+        & h2{
+            background-color: $deep-blue;
+            color: $light-yellow;
+            border: 1px solid $deep-blue;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        & ul{
+            list-style: none;
+            padding-top: 20px;
+        }
+    }
+}

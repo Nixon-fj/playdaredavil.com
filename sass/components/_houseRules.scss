@@ -1,0 +1,40 @@
+.house-rules{
+    padding: 3rem 0;
+    background-color: $light-gray;
+
+    max-width: 1280px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.house-information-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: $deep-blue;
+    h2{
+        text-align: center;
+        font-weight: bold;
+    }
+    p{
+        margin: 10px;
+        background-color: white;
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    span{
+        font-weight: bold;
+    }
+}
+.hose-rules-list{
+    padding-right: 35px;
+    padding-left: 35px;
+
+    li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
