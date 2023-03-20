@@ -23,12 +23,12 @@
         align-items: center;
         
         &-imgContainer{
-            width: 97px;
-            height: 27px;
+            width: 50%;
+            height: 50px;
 
             @media screen and (min-width: 900px){
                 width: 25%;
-                height: 50px;
+                height: 70px;
             }
         }
 
