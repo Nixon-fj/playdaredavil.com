@@ -2,6 +2,7 @@ footer{
     margin-top: 10px;
     background-color: $deep-blue;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 2rem;
     padding-bottom: 5rem;
@@ -117,6 +118,7 @@ footer{
             padding-left: 15px;
             padding-right: 15px;
             justify-content: space-around;
+            align-items: baseline;
             font-size: 10px;
             li{
                     a{
@@ -129,6 +131,7 @@ footer{
                             width: 100%;
                             display: flex;
                             justify-content: center;
+                            margin-bottom: 0.5rem;
                             img{
                                 max-width: 39px;
                             }

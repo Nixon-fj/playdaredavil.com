@@ -1097,6 +1097,7 @@ footer {
   margin-top: 10px;
   background-color: #000;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 2rem;
   padding-bottom: 5rem; }
@@ -1191,6 +1192,7 @@ footer {
         padding-left: 15px;
         padding-right: 15px;
         justify-content: space-around;
+        align-items: baseline;
         font-size: 10px; }
         .footerNav .topMenu-container .topMenu-container-options ul li a {
           display: flex;
@@ -1201,7 +1203,8 @@ footer {
           .footerNav .topMenu-container .topMenu-container-options ul li a .icon-container {
             width: 100%;
             display: flex;
-            justify-content: center; }
+            justify-content: center;
+            margin-bottom: 0.5rem; }
             .footerNav .topMenu-container .topMenu-container-options ul li a .icon-container img {
               max-width: 39px; }
           .footerNav .topMenu-container .topMenu-container-options ul li a .horse img {
