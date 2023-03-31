@@ -27,7 +27,7 @@
                 </ul>
             </div>
             <div class="topMenu-container-buttonContainer">
-                <a href="login.html" class="topMenu-container-buttonContainer-button">
+                <a href="login.php" class="topMenu-container-buttonContainer-button">
                     LOG IN
                 </a>
             </div>
@@ -37,17 +37,16 @@
         <div class="login-container">
             <div class="login-container-form">
                 <div class="signUp">
-                    <form class="signUp__form" name="LoginForm" action="javascript:void(0)"
-                        onsubmit="BackEndLogin(this); return false">
+                    <form class="signUp__form" id="login-form" name="login-form" class="nobottommargin" action="<?php echo M_LOGIN_URL; ?>" method="post">
+                        <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
+						<input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/login-error.php" />
+
                         <label class="signUp__form--label" for="username">USERNAME</label>
-                        <input class="signUp__form--input" type="text" placeholder="USERNAME" name="username" required>
+                        <input class="signUp__form--input" type="text" id="login-form-username" placeholder="Username" name="account" value="" required>
                         <label class="signUp__form--label" for="password">PASSWORD </label>
-                        <input class="signUp__form--input" type="password" placeholder="PASSWORD" name="password"
-                            required>
-                        <div class=""> <span name="msj_loading" id="id-login-loading"></span><small class="text-danger"
-                                name="msj_error_lg"></small></div>
-                        <input class="btn-login" type="submit" name="send" id="send" value="LOG IN">
-                        <input type="hidden" name="BackEndUrl" value="https://betslip.playdaredevil.com/">
+                        <input class="signUp__form--input" type="password" id="login-form-password" placeholder="Password" name="password" value="" required>
+                        
+                        <button class="btn-login" id="login-form-submit" name="login-form-submit" value="login">Login Classic</button>
                     </form>
                 </div>
             </div>
@@ -94,7 +93,6 @@
             </section>
         </div>
     </footer>
-    <script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
