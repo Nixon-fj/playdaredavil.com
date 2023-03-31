@@ -27,7 +27,7 @@
                 </ul>
             </div>
             <div class="topMenu-container-buttonContainer">
-                <a href="login.php" class="topMenu-container-buttonContainer-button">
+                <a href="login.html" class="topMenu-container-buttonContainer-button">
                     LOG IN
                 </a>
             </div>
@@ -35,36 +35,40 @@
     </nav>
     <main role="main">
         <!-- ----------------------------------------------------------- -->
-        <div id="loginM" class="form-login d-flex d-md-none d-center">
-            <form id="login-form" name="login-form" class="signUp__form" action="<?php echo M_LOGIN_URL; ?>" method="post">   <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
-                <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
-                <div class="">
-                    <input type="text" id="account" name="account" value="" placeholder="Usuario" class="signUp__input" />
-                </div>
-                <div class="">
-                    <input type="password" id="password" name="password" value="" placeholder="Contrase&ntilde;a" class="signUp__input" />
-                </div>
-                <div class="">
-                    <button type="submit" class="button button-3d button-black nomargin" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
-                </div>
-            </form>
-        </div>
+        <!-- <div class="login-container ">
+            <div id="loginM" class="login-container-form form-login d-flex d-md-none">
+                <form id="login-form" name="login-form" class="signUp__form" action="<?php echo M_LOGIN_URL; ?>" method="post">   <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
+                    <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
+                    <div class="">
+                        <input type="text" id="account" name="account" value="" placeholder="Usuario" class="signUp__form--input" />
+                    </div>
+                    <div class="">
+                        <input type="password" id="password" name="password" value="" placeholder="Contrase&ntilde;a" class="signUp__form--input" />
+                    </div>
+                    <div class="">
+                        <button type="submit" class="btn-login" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
+                    </div>
+                </form>
+            </div>
+        </div> -->
 
         <!-- -------------------------------------------------------------- -->
 
-        <div id="loginD" class="form-login d-none d-md-flex d-center">
-            <form id="login-form" name="login-form" class="signUp__form" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
-                <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
-                <div class="">
-                    <input type="text" id="account" name="account" value="" placeholder="Usuario" class="signUp__input" />
-                </div>
-                <div class="">
-                    <input type="password" id="password" name="password" value="" placeholder="Contrase&ntilde;a" class="signUp__input" />
-                </div>
-                <div class="">
-                    <button type="submit" class="signUp__button" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
-                </div>
-            </form>
+        <div class=" ">
+            <div id="loginD" class="">
+                <form id="login-form" name="login-form" class="" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
+                    <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
+                    <div >
+                        <input type="text" id="account" name="account" value="" placeholder="Usuario" class="" />
+                    </div>
+                    <div >
+                        <input type="password" id="password" name="password" value="" placeholder="Contrase&ntilde;a" class="" />
+                    </div>
+                    <div >
+                        <button type="submit" class="" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
+                    </div>
+                </form>
+            </div>
         </div>
 
     </main>
