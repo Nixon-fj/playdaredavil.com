@@ -1,0 +1,21 @@
+.login-container{
+    width: 25%;
+    min-width: 300px;
+    margin: 2rem auto;
+    background-color: $deep-blue;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.login-input{
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.login-btn{
+    background-color: $light-yellow;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    color: $white;
+    border-radius: 5px;
+    border: none;
+}
