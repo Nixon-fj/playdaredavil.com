@@ -11,6 +11,8 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "\conf.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php echo SITE_NAME; ?></title>
 
+	<link rel="stylesheet" href="public/css/styles.css">
+
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="/css/default-new.css" rel="stylesheet">
