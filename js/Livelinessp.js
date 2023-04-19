@@ -101,7 +101,7 @@ function GetLivelinesSchedule(prmIdBook, prmIdProfile, prmIdProfileLimits, prmId
         },
         dataType: "xml",
         beforeSend: function () {
-            $('#spanLines').html('<img src="/images/freeliveodds/loading.gif" />');
+            $('#spanLines').html('<img src="./img/icons/loading.gif" />');
             try { xhr.responseType = "msxml-document"; } catch (err) { };
         },
         success: GetLivelinesScheduleSuccessOccur,
