@@ -1,0 +1,184 @@
+#pageContent TABLE {
+	border-bottom:none;
+	border-left:none;
+	margin: 0 !important;
+}
+#pageContent TABLE TD,
+#pageContent TABLE TH {
+	border-top: none;
+	border-right: none;
+	padding: 0 !important;
+}
+#pageContent TABLE TH {
+	background-color:none;
+}
+
+/* - - - - - - */
+#sportCalendar {
+	width:100%;
+	margin:0 auto;
+}
+#dateCalendar {
+	margin:0;
+}
+#monthlyCalendar {
+	width:48%;
+	float:left;
+	margin:0 10px 0 0;
+}
+#monthlyCalendar TABLE {
+	width:100%;
+	background-color:#545454;
+	padding:5px;
+	margin:5px auto;
+}
+#monthlyCalendar TABLE CAPTION {
+	background-color:#666;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	line-height:35px;
+	text-align:center;
+	height:35px;
+}
+#monthlyCalendar TD {
+	width:175px;
+	height: 25px;
+	text-align:center;
+	background-color:#666;
+	color:#fff;
+	font-weight:bold;
+	padding:3px 0;
+}
+#monthlyCalendar TD A {
+	color:#f6cb00;
+	text-decoration:none;
+}
+#monthlyCalendar TD A:hover {
+	color:#ffdb2f;
+	text-decoration:none;
+}
+#prevNextCalendar {
+	  float: left;
+      /* background-color: #2e2e2e; */
+color: #fff;
+/* width: 100%;
+height: 15px; */
+font-weight: bold;
+text-align: center;
+/* margin: 5px auto 0 auto; */
+padding: 7px 0;
+}
+#prevNextCalendar A {
+	color:#f6cb00;
+	text-decoration:none;
+}
+#calendar {
+    float: left;
+    /* background-color: #383838; */ 
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+}
+#calendar TABLE {
+	width:100%;
+	margin:0 auto;
+}
+#calendar TD A {
+	color:#f6cb00;
+}
+#calendar TR#calendarMonth {
+	text-align:center;
+}
+#calendar TD.calendarDaySelected {
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+}
+#calendarMonth {
+	text-align:center;
+}
+#calendarMonth TH {
+	line-height:14px;
+}
+#calendarMonth TD {
+	color:#fff;
+	font-weight:bold;
+}
+#calendarMonth TD A {
+	color:#f6cb00;
+}
+#scoreboardGames {
+	width:100%;
+	margin:0 auto;
+	clear:both;
+}
+#scoreboardGames H3 {
+	background-color:#545454;
+	background-image:none;
+	font:normal 22px Impact, 'Open Sans', sans-serif
+	color:#fff;
+	line-height:35px;
+	display:block;
+	padding:0 0 0 15px;
+	margin:10px 0;
+	clear:both;
+}
+#scoreboardGames .scoreboardItem {
+	width:50%;
+	margin:0 auto;
+	float:left;
+}
+@media only screen and (max-width: 380px) {
+#scoreboardGames .scoreboardItem {
+    width: 100%;
+}
+#monthlyCalendar {
+    width: 100%;
+   
+}
+
+#calendar {
+  
+    width: 100%;
+   
+}
+}
+
+#scoreboardGames .scoreboardItem .scoreTable {
+	width:98%;
+	height:120px;
+	margin:5px auto 15px auto !important;
+	padding:5px;
+	font: bold 12px 'Open Sans', sans-serif
+	background-color:#4c4c4c;
+	border:3px solid #3c3c3c;
+}
+.scoreboardItem TABLE.scoreTable TD.gameStatus {
+	font-size:12px;
+	text-align:left;
+	color:#ffd308;
+	border-bottom:1px solid #3c3c3c;
+}
+.scoreboardItem TABLE.scoreTable TD.gameTime {
+	font-size:12px;
+	text-align:right;
+	color:#adadad;
+	border-bottom:1px solid #3c3c3c;	
+}
+.scoreboardItem TABLE.scoreTable TD.team1, TABLE TD.team2 {
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	padding:5px;
+	color:#fff;
+}
+.scoreboardItem TABLE.scoreTable TD.score1, TABLE TD.score2 {
+	font-size:16px;
+	font-weight:bold;
+	color:#fed100;
+	text-align:center;
+	padding:5px;
+}
